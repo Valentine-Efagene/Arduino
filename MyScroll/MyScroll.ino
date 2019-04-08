@@ -68,8 +68,9 @@ uint16_t scrollPause = 0; // in milliseconds
 // Global message buffers shared by Serial and Scrolling functions
 #define  BUF_SIZE  80
 char curMessage[BUF_SIZE] = { "" };
+char newMessage[BUF_SIZE] = { "THIS IS GOD'S OWN FAMILY." };
 //char newMessage[BUF_SIZE] = { "GOD WATCHES OVER US DAY AND NIGHT." };
-char newMessage[BUF_SIZE] = { "***    COMPLIMENTS OF THE SEASON.    ***" };
+//char newMessage[BUF_SIZE] = { "***    COMPLIMENTS OF THE SEASON.    ***" };
 //char newMessage[BUF_SIZE] = { "HAPPY BIRTHDAY PROMISE & AINA." };
 bool newMessageAvailable = true;
 

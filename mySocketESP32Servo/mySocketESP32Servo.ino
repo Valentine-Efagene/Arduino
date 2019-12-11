@@ -1,4 +1,4 @@
-#include <WiFi.h>
+#include "ESP8266WiFi.h"
 #include <ESP32Servo.h> 
 
 Servo myservo;

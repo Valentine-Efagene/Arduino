@@ -15,7 +15,6 @@
  ****************************************************/
 
 #include <Adafruit_Fingerprint.h>
-#include <SoftwareSerial.h>
 
 // On Leonardo/Micro or others with hardware serial, use those! #0 is green wire, #1 is white
 // uncomment this line:
@@ -25,7 +24,7 @@
 // pin #2 is IN from sensor (GREEN wire)
 // pin #3 is OUT from arduino  (WHITE wire)
 // comment these two lines if using hardware serial
-SoftwareSerial mySerial(2, 3); //YELLOW, MODULE TX
+SoftwareSerial mySerial(2, 3);
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
